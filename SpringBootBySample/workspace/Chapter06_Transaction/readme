@@ -1,0 +1,22 @@
+create table transaction1(
+  consumerid varchar2(20),
+  amount number
+)    
+;
+
+create table transaction2(
+  consumerid varchar2(20),
+  amount number
+)    
+;
+
+create table transaction3(
+  consumerid varchar2(20),
+  amount number
+)    
+;
+
+
+insert into transaction1 values('1',100);
+insert into transaction2 values('1',100);
+insert into transaction3 values('1',100);
