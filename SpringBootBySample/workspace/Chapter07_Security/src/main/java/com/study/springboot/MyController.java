@@ -1,16 +1,15 @@
-package com.study.springboot.ex25;
+package com.study.springboot;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/ex25")
-public class MyController_ex25 {
+public class MyController {
 
     @RequestMapping("/")
     public @ResponseBody String root() throws Exception{
-        return "Security (1)";
+        return "Security-StatusCheck (3)";
     }
 
     @RequestMapping("/guest/welcome")
@@ -31,4 +30,15 @@ public class MyController_ex25 {
         return "admin/welcome3";
     }
 
+    @RequestMapping("/loginForm")
+    public String loginForm() {
+        
+        return "security/loginForm";
+    }
+    
+    @RequestMapping("/loginError")
+    public String loginError() {
+        
+        return "security/loginError";
+    }
 }
