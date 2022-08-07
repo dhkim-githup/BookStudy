@@ -32,7 +32,7 @@ public class MyController {
 
     @RequestMapping("/loginForm")
     public String loginForm() {
-        
+        System.out.println("loginForm");
         return "security/loginForm";
     }
     

@@ -1,0 +1,13 @@
+*.location
+*.markers
+*.index
+*.properties
+*.dat
+*.tree
+*.version
+*.resources
+*.prefs
+*.launch
+*.xml
+*.xmi
+*.project

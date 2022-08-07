@@ -61,7 +61,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
   
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-//        System.out.println(passwordEncoder().encode("123"));
+        //System.out.println(passwordEncoder().encode("1234"));
 
         auth.jdbcAuthentication()
             .dataSource(dataSource)
